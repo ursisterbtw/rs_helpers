@@ -4,7 +4,7 @@ A random assortment of Rust helper scripts.
 
 <img src="docs/nice_kreb.png" width="320" />
 
-## Work in Progress
+## * Work in Progress *
 
 feel free to check out <https://github.com/ursisterbtw/hash_hunter>, an Ethereum address generator that I wrote, while you wait for me to add more scripts :)
 
