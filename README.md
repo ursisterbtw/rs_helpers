@@ -69,3 +69,11 @@ repo-summarizer/
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+
+## Acknowledgments
+
+- [reqwest](https://github.com/seanmonstar/reqwest) for HTTP requests
+- [clap](https://github.com/clap-rs/clap) for command-line argument parsing
+- [indicatif](https://github.com/mitsuhiko/indicatif) for progress bars
+- [serde](https://github.com/serde-rs/serde) for serialization/deserialization
