@@ -1,0 +1,17 @@
+[package]
+name = "rs_helpers"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.9", features = ["json"] }
+tokio = { version = "1.41.1", features = ["full"] }
+serde = { version = "1.0.214", features = ["derive"] }
+serde_json = "1.0.132"
+serde_yaml = "0.9.33"
+base64 = "0.22.1"
+clap = { version = "4.5.20", features = ["derive"] }
+anyhow = "1.0.93"
+thiserror = "2.0.2"
+indicatif = "0.17.8"
+chrono = "0.4.38"
