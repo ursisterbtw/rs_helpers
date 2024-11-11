@@ -6,6 +6,8 @@ A random assortment of Rust helper scripts.
 
 ## Work in Progress
 
+feel free to check out <https://github.com/ursisterbtw/hash_hunter>, an Ethereum address generator that I wrote, while you wait for me to add more scripts :)
+
 ### `src` currently contains a GitHub repository analyzer that can be used to get a quick "summary" of a repository.
 
 This Rust application fetches and analyzes data from a specified GitHub repository. It provides a summary of the repository's information, statistics, languages used, and key files.
