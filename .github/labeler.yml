@@ -1,31 +1,30 @@
-labels:
-  Rust:
-    - "src/**/*.rs"
-    - "Cargo.toml"
-    - "Cargo.lock"
+Rust:
+  - "src/**/*.rs"
+  - "Cargo.toml"
+  - "Cargo.lock"
 
-  CI:
-    - ".github/workflows/**"
+CI:
+  - ".github/workflows/**"
 
-  Documentation:
-    - "**/*.md"
-    - "docs/**"
+Documentation:
+  - "**/*.md"
+  - "docs/**"
 
-  Configuration:
-    - ".gitignore"
-    - "*.json"
-    - "*.yaml"
-    - "*.yml"
-    - "*.toml"
+Configuration:
+  - ".gitignore"
+  - "*.json"
+  - "*.yaml"
+  - "*.yml"
+  - "*.toml"
 
-  License:
-    - "LICENSE"
+License:
+  - "LICENSE"
 
-  DevContainer:
-    - ".devcontainer/**"
+DevContainer:
+  - ".devcontainer/**"
 
-  Scripts:
-    - "scripts/**"
+Scripts:
+  - "scripts/**"
 
-  Tests:
-    - "tests/**" 
+Tests:
+  - "tests/**"
