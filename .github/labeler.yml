@@ -1,20 +1,21 @@
-# Labeler configuration for repo-summarizer
-
 labels:
   Rust:
     - "src/**/*.rs"
     - "Cargo.toml"
+    - "Cargo.lock"
 
   CI:
     - ".github/workflows/**"
 
   Documentation:
-    - "README.md"
+    - "**/*.md"
     - "docs/**"
 
   Configuration:
+    - ".gitignore"
     - "*.json"
     - "*.yaml"
+    - "*.yml"
     - "*.toml"
 
   License:
@@ -23,11 +24,8 @@ labels:
   DevContainer:
     - ".devcontainer/**"
 
-  GitIgnore:
-    - ".gitignore"
-
   Scripts:
     - "scripts/**"
 
   Tests:
-    - "tests/**"
+    - "tests/**" 
