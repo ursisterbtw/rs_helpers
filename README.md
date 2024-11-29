@@ -118,7 +118,7 @@ We welcome contributions to the `rs_helpers` repository! Here are some ways you 
 1. **Fork the repository** to your own GitHub account.
 2. **Clone the repository** to your local machine:
    ```bash
-   git clone https://github.com/your-username/rs_helpers.git
+   git clone https://github.com/ursisterbtw/rs_helpers.git
    ```
    
 ## License
