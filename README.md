@@ -105,8 +105,22 @@ rs_helpers/
 
 ## Contributing
 
-<!-- See [CONTRIBUTING.md](CONTRIBUTING.md) for details. -->
+We welcome contributions to the `rs_helpers` repository! Here are some ways you can get involved:
 
+1. **Report Issues**: If you encounter any bugs or would like to request a new feature, please open an issue on GitHub.
+2. **Submit Pull Requests**: If you'd like to contribute code, please fork the repository and submit a pull request. Make sure to follow the coding standards and include tests for any new features or bug fixes.
+3. **Improve Documentation**: Help us improve the documentation by editing the README or writing more comprehensive guides.
+4. **Review Code**: Participate in code reviews to ensure high-quality code is merged into the main branch.
+5. **Suggest Enhancements**: Share your ideas for improving existing tools or adding new ones.
+
+### Getting Started
+
+1. **Fork the repository** to your own GitHub account.
+2. **Clone the repository** to your local machine:
+   ```bash
+   git clone https://github.com/your-username/rs_helpers.git
+   ```
+   
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
