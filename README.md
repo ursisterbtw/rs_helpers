@@ -2,15 +2,16 @@
 
 A random assortment of Rust helper scripts.
 
-<img src="docs/nice_kreb.png" width="320" />
+![Nice Kreb](docs/nice_kreb.png)
 
-## * Work in Progress *
+## *Work in Progress*
 
 feel free to check out <https://github.com/ursisterbtw/hash_hunter>, an Ethereum address generator that I wrote, while you wait for me to add more scripts :)
 
 ## Available Tools
 
 ### 1. GitHub Repository Analyzer
+
 Located in `src/`, this tool provides a quick "summary" of a repository.
 
 - Fetches repository information such as name, description, URL, stars, forks, and more
@@ -20,6 +21,7 @@ Located in `src/`, this tool provides a quick "summary" of a repository.
 - Supports output in JSON or YAML format
 
 ### 2. EVM RPC Health Checker
+
 Located in `crates/evm_rpc_health_checker/`, this tool monitors the health of Ethereum RPC endpoints.
 
 - Continuously checks RPC endpoint availability
@@ -28,6 +30,7 @@ Located in `crates/evm_rpc_health_checker/`, this tool monitors the health of Et
 - Easy to configure for different RPC endpoints
 
 ### 3. Solana RPC Health Checker
+
 Located in `crates/sol_rpc_health_checker/`, this tool monitors the health of Solana RPC endpoints.
 
 - Continuously checks RPC endpoint availability
@@ -35,7 +38,6 @@ Located in `crates/sol_rpc_health_checker/`, this tool monitors the health of So
 - Automatic retry on failures
 - Configurable commitment level
 - Easy to configure for different RPC endpoints
-
 
 ## Usage
 
@@ -77,7 +79,7 @@ cargo run --release
 
 ## Directory structure
 
-```
+```text
 rs_helpers/
 ├── .github/
 │ └── workflows/
@@ -117,10 +119,11 @@ We welcome contributions to the `rs_helpers` repository! Here are some ways you 
 
 1. **Fork the repository** to your own GitHub account.
 2. **Clone the repository** to your local machine:
+
    ```bash
    git clone https://github.com/ursisterbtw/rs_helpers.git
    ```
-   
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
